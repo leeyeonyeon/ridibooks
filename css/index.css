@@ -1,5 +1,5 @@
 @import url(reset.css);
-@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css'); 
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
 @font-face {
   font-family: 'Pretendard-Regular';
   src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
@@ -656,8 +656,8 @@ ul.gnb {
 }
 .accordion .title {cursor: pointer;}
 .accordion .title:after {
-  content: '\e9c5';
-  font-family: xeicon !important;
+  content: '\2b';
+  font-family: fontawesome;
   float: right;
   margin-top: 5px;
   transition: 0.35s;
