@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <title>index</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <h1><a href="#"><img src="image/logo.png" alt="logo"></a></h1>
+      <ul class="gnb">
+        <li class="main"><a href="#none">추천</a>
+          <ul class="sub">
+            <li><a href="#none">기획전</a></li>
+          </ul>
+        </li>
+        <li class="main"><a href="#none">소설</a>
+          <ul class="sub">
+            <li><a href="#none">추리/미스터리/스릴러</a></li>
+            <li><a href="#none">SF</a></li>
+            <li><a href="#none">판타지</a></li>
+            <li><a href="#none">역사</a></li>
+            <li><a href="#none">고전문학</a></li>
+          </ul>
+        </li>
+        <li class="main"><a href="#none">인문/사회/역사</a>
+          <ul class="sub">
+            <li><a href="#none">성공/삶의자세</a></li>
+            <li><a href="#none">기획/창의/리더십</a></li>
+            <li><a href="#none">설득/화술/협상</a></li>
+            <li><a href="#none">취업/창업</a></li>
+          </ul>
+        </li>
+        <li class="main"><a href="#none">경영/경제</a>
+          <ul class="sub">
+            <li><a href="#none">경영</a></li>
+            <li><a href="#none">경제</a></li>
+            <li><a href="#none">마케팅/세일즈</a></li>
+            <li><a href="#none">재테크/금융/부동산</a></li>
+          </ul>
+        </li>
+        <li class="main"><a href="#none">에세이/시</a>
+          <ul class="sub">
+            <li><a href="#none">에세이</a></li>
+            <li><a href="#none">시</a></li>
+          </ul>
+        </li>
+      </ul>
+
+
+      <div class="search">
+        <form action="/search" method="get">
+          <input type="search" name="query" placeholder="검색어를 입력하세요" class="search-input">
+          <button type="button" class="search-button">검색</button>
+        </form>
+      </div>
+      <div class="user-menu">
+        <a href="#login">로그인</a>
+        <a href="#signup">회원가입</a>
+      </div>
+    </nav>
+
+  </header>
+
+  <main>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="image/main1.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="image/main2.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="image/main3.jpg" alt=""></div>
+
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </main>
+
+  <h2>주간 베스트 작품</h2>
+  <section id="s1">
+    <div class="items">
+      <div class="item">
+        <img src="image/best1.png" alt="bestbook1">
+        <h3>대도시의 사랑법</h3>
+        <p>박상영</p>
+        <div class="caption">
+          <span class="star">★4.4</span>
+          <strong>#한국소설</strong>
+          <p>청춘의 사랑과 이별의 행로를 때로는 유머러스하고 경쾌하게 그려내고, 때로는 밀도 높게 성찰하는 아름다운 작품들</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="image/best2.png" alt="bestbook2">
+        <h3>이중 하나는 거짓말</h3>
+        <p>김애란</p>
+        <div class="caption">
+          <span class="star">★4.5</span>
+          <strong>#한국소설</strong>
+          <p>그림과 비밀, 그리고 슬픔으로 서로 밀착되는 세 아이의 이야기. 젊은 거장 김애란, 13년 만의 신작 장편소설</p>
+        </div>
+      </div>
+      <div class="item">
+        <img src="image/best3.png" alt="bestbook3">
+        <h3>당신이 누군가를 죽였다</h3>
+        <p>히가시노 게이고</p>
+        <div class="caption">
+          <span class="star">★4.0</span>
+          <strong>#추리</strong>
+          <strong>#미스터리</strong>
+          <strong>#스릴러</strong>
+          <p>히가시노 게이고 101번째 작품에서 미스터리의 원점으로!
+            “미스터리란 어떤 소설인가? 라는 질문을 들었을 때
+            이런 소설이다, 라고 대답할 수 있는 작품입니다.”</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="button-container">
+    <button class="more-button">더보기</button>
+  </div>
+
+
+
+  <h2>리뷰 명예의 전당</h2>
+  <section id="s2">
+    <div class="ban">
+      <ul>
+        <li>
+          <div class="info">
+            <img src="image/r1.png" alt="reviewbook1">
+            <div class="info-box box1">
+              <img src="image/profile1.png" alt="profile1">
+              <div class="user">
+                <strong>yeo***</strong>
+                <br>
+                <span>★★★★★</span>
+              </div>
+              <div class="description">
+                <strong>각자만의 방식으로 꿋꿋이 살아가는 모습 속 잔잔한 위로</strong>
+                <p>주인공들의 대사는 투박하지만 섬세하고도 구체적인 문장들을 따라가다보면 시간 가는 줄 모르고 읽게 됩니다.</p>
+              </div>
+            </div>
+            </div>
+        </li>
+        <li>
+          <div class="info">
+            <img src="image/r2.png" alt="reviewbook2">
+            <div class="info-box box2">
+              <img src="image/profile2.png" alt="profile2">
+              <div class="user">
+                <strong>mil*** </strong>
+                <br>
+                <span>★★★★★</span>
+              </div>
+              <div class="description">
+                <strong>시와 철학과 사색이 가득한 책</strong>
+                <p>그렇다고 너무 어렵거나 복잡하지도 않게, 아는 좋은 선배와 인생에 대한 얘기를 나누며 마르디히말을 산책하고 온 느낌이 들 정도.</p>
+              </div>
+            </div>
+            </div>
+        </li>
+        <li>
+          <div class="info">
+            <img src="image/r3.png" alt="reviewbook3">
+            <div class="info-box box3">
+              <img src="image/profile3.png" alt="profile3">
+              <div class="user">
+                <strong>goa***</strong>
+                <br>
+                <span>★★★★★</span>
+              </div>
+              <div class="description">
+                <strong>켠켠이 쌓이는 그리움을 담담하게 수채화의 물감이 젖어들 듯 마음에 풀어지는 낱말의 정렬.</strong>
+                <p>세상 살아가면서 놓치고 싶지 않은 별다른 이야기가 없어도 마음 한켠엔 그리움으로 그 막연한 그리움이 설렘으로 희화하는 그 순간을 찾게 해주는 작품</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="info">
+            <img src="image/r4.png" alt="reviewbook4">
+            <div class="info-box box4">
+              <img src="image/profile4.png" alt="profile4">
+              <div class="user">
+                <strong>hae***</strong>
+                <br>
+                <span>★★★★★</span>
+              </div>
+              <div class="description">
+                <strong>과하게 힘 주지 않은 문장이 모여 만들어 낸 진한 여운</strong>
+                <p>어쩐지 인사동을 거닐어 보고 싶기도 하고 오랜만에 라디오가 듣고 싶어지는 기분.</p>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="ban_btn">
+    <a class="ban_left" href="#none"><i class="fa-solid fa-chevron-left"></i></a>
+    <p>리뷰를 넘겨보세요.</p>
+    <a class="ban_right" href="#none"><i class="fa-solid fa-chevron-right"></i></a>
+  </div>
+
+
+  <section id="s3">
+    <div class="container">
+      <div class="letterleft">
+        <h2>셀렉트 레터</h2>
+        <p>한 주 한 책, 새로운 책을 만나보세요.</p>
+      </div>
+      <div class="letterright">
+        <div class="letterItem">
+          <img src="image/letter1.png" alt="book1">
+          <div class="description">
+            <p>세상을 살아가는 것만으로도 누군가를 구원할 수 있다</p>
+            <h3>용의자 X의 헌신
+              <strong>#히가시노 게이고</strong>
+            </h3>
+          </div>
+        </div>
+        <div class="letterItem">
+          <img src="image/letter2.png" alt="book2">
+          <div class="description">
+            <p>결국 '자기만의 세계'를 가진 자가 살아남는다</p>
+            <h3>돈 말고 무엇을 갖고 있는가
+              <strong>#정지우</strong>
+            </h3>
+          </div>
+        </div>
+        <div class="letterItem">
+          <img src="image/letter3.png" alt="book3">
+          <div class="description">
+            <p>평범한 일상을 사는 누구나 마음을 둘 아지트가 필요하다</p>
+            <h3>바다가 들리는 편의점
+              <strong>#마치다 소노코</strong>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <h2>신작 캘린더</h2>
+  <section id="s4">
+    <div class="wrapper">
+      <div class="nav">
+        <p class="current-date">10월</p>
+      </div>
+      <div class="calendar-box">
+        <div class="calendar">
+          <ul class="weeks">
+            <li>Sun</li>
+            <li>Mon</li>
+            <li>Tue</li>
+            <li>Wed</li>
+            <li>Thu</li>
+            <li>Fri</li>
+            <li>Sat</li>
+          </ul>
+          <ul class="days">
+            <li class="inactive">29</li>
+            <li class="inactive">30</li>
+            <li class="tag tag1">1</li>
+            <li class="tag tag2">2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li class="tag tag3">7</li>
+            <li>8</li>
+            <li>9</li>
+            <li>10</li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li class="tag tag4">14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li class="tag tag5">21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li class="tag tag6">28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+<section class="accordion-box">
+  <h2>총 라인업</h2>
+  <div class="accordion">
+    <div class="title active">1.(화)</div>
+    <div class="content active">
+      사피엔스 - 유발 하라리 > <br>
+      <strong>"인간의 역사와 미래에 대한 논쟁적이고 대담한 대서사! 이 시대의 지성, 유발 하라리의 대표작"</strong>
+    </div>
+
+    <div class="title">2.(수)</div>
+    <div class="content">퀸의 대각선 1 - 베르나르 베르베르 > <br>퀸의 대각선 2 - 베르나르 베르베르 > <br>
+      <strong>"인류의 운명을 걸고 벌어지는 두 체스 천재의 한판 승부, 베르나르 베르베르 최신작"</strong>
+    </div>
+
+    <div class="title">7.(월)</div>
+    <div class="content">도파민네이션 - 애나 렘키 ><br><strong>"왜 우리는 자꾸만 고자극에 중독되는가? 쾌락과 고통의 지휘자 도파민의 비밀! 균형 있는 삶을 위한 해독서"</strong><br>가치 있는 삶 - 라이언 매컬널리린츠 <br> 에고라는 적 - 라이언 홀리데이 <br> 라이팅 유니버스 - 라이언 홀리데이 <br> 느끼고 아는 존재 - 안토니오 다마지오 <br> 오리진 - 루이스 다트넬 <br> 내가 된다는 것 - 아닐 세스 <br> 개정판|히트 리프레시 - 사티아 나델라 <br> 비즈니스의 미래 - 야마구치 슈 <br> 무조건 팔리는 심리 마케팅 기술 100 - 가와카미 데쓰야 <br> 무조건 팔리는 스토리 마케팅 기술 100 - 간다 마사노리
+    </div>
+
+    <div class="title">14.(월)</div>
+    <div class="content">
+      힐빌리의 노래 - J.D.밴스 > <br><strong>"쇠락한 공업 지대 러스트벨트 지역의 소외와 가난, 정신적 빈곤으로부터의 탈출기! 미 최연소 부통령 후보 J.D.밴스의 진솔한 회고록"</strong><br> 우리가 명함이 없지 일을 안 했냐 - 경향신문 젠더기획팀<br> 습관의 디테일 - BJ 포그<br> 낭만을 잊은 그대에게 - 김성중<br> 기록하기로 했습니다 - 김신지 <br>우리는 아직 무엇이든 될 수 있다 - 김진영<br> 사물에게 배웁니다 - 임진아<br> 빵 고르듯 살고 싶다 - 임진아<br> 무리하지 않는 선에서 - 한수희
+    </div>
+
+    <div class="title">21.(월)</div>
+    <div class="content">인스타 브레인 - 안데르스 한센 ><br><strong>"하루 2600번 스마트폰을 만지는 동안, 우리 뇌의 회로가 변하고 있다! 몰입을 빼앗긴 시대, 똑똑한 뇌 사용법</strong> <br>소비단식 일기 - 서박하 <br>좋아하는 곳에 살고 있나요 - 최고요<br> 개정판 | 나는 왜 혼자가 편할까? - 오카다 다카시<br> 개정판 | 나는 왜 저 인간이 싫을까? - 오카다 다카시<br> 주말엔 옷장 정리 - 이문연 <br>우리가 매일 차를 마신다면, - 맥파이앤타이거<br> 힘들어도 사람한테 너무 기대지 마세요 - 정우열
+    </div>
+    
+    <div class="title">28.(월)</div>
+    <div class="content">숨결이 바람 될 때 - 폴 칼라니티 > <br><strong>"마지막 순간, 가장 소중한 것들은 무엇일까? 세계를 감동시킨 서른여섯 젊은 의사 폴 칼라니티의 마지막 2년 기록"</strong><br> 어떤 죽음이 삶에게 말했다 - 김범석 <br>나는 죽음 앞에 매번 우는 의사입니다 - 스텔라황 <br>개정판 | 라틴어 수업 - 한동일 > <br><strong>"라틴어 명문 속에 담긴 삶과 죽음, 자존감의 문제,... 그리고 살면서 한번쯤은 생각해봐야 할 인생의 화두들!"</strong><br> 한동일의 공부법 수업 - 한동일<br> 믿는 인간에 대하여 - 한동일<br> 죽은 시인의 사회 - N.H.클라인바움<br> 룬샷 - 사피 바칼 <br>개정판 | 피터 린치의 이기는 투자(2021) - 피터 린치<br> 개정판 | 피터 린치의 투자 이야기 (2021) - 피터 린치
+    </div>
+  </div>
+</section>
+
+
+  </section>
+
+  <footer>
+    <div class="copyright">
+      <div class="foot-util">
+        <a href="#none">개인정보처리방침</a><span class="bar"></span><a href="#none">이용약관</a><span class="bar"></span><a href="#none">청소년보호정책</a><span class="bar"></span><a href="#none">사업자정보확인</a>
+      </div>
+      <address>
+          <p>
+            대표자 배기식<span class="bar"></span>
+            사업자 등록번호 120-87-27435<span class="bar"></span>
+            통신판매업 신고번호 제 2009-서울강남 35-02139호<br>
+            서울시 강남구 역삼동 702-28 어반벤치빌딩 4,10,11층(테헤란로 325)<span class="bar"></span>
+            대표전화 1644-0331<span class="bar"></span>
+            이메일 help@ridi.com
+          </p>
+          <p>&copy;RIDI Corp.</p>
+      </address>
+    </div>
+  </footer>
+
+
+  <!-- Script Source -->
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+  <script src="js/index.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        cssMode: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        mousewheel: true,
+        keyboard: true,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+</body>
+
+</html>
