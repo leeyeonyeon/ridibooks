@@ -657,7 +657,7 @@ ul.gnb {
 .accordion .title {cursor: pointer;}
 .accordion .title:after {
   content: '\e9c5';
-  font-family: xeicon;
+  font-family: xeicon !important;
   float: right;
   margin-top: 5px;
   transition: 0.35s;
