@@ -436,6 +436,7 @@ ul.gnb {
   justify-content: center;
   align-items: center;
 }
+
 .container {
   width: 1200px;
   height: 800px;
@@ -445,13 +446,17 @@ ul.gnb {
   padding: 20px;
 }
 
-.letterleft {
-  margin-left: 60px;
+.letterleft{
+  text-align: center;
 }
+.letterleft img{filter: grayscale(70%);}
 
+.letterleft h2{
+  font-size: 52px;
+}
 .letterleft p {
   color: #666;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .letterItem {
@@ -639,7 +644,7 @@ ul.gnb {
 }
 /* --------------------------------------- accordion */
 .accordion-box{
-  width: 700px;
+  width: 800px;
   margin: auto;
   color: #333;
 }
@@ -654,7 +659,30 @@ ul.gnb {
   padding: 10px 15px;
   margin-bottom: 7px;
 }
-.accordion .title {cursor: pointer;}
+.accordion .title {
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.accordion .content{
+  text-align: left;
+  padding: 30px;
+}
+
+.accordion .img-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.accordion img{
+  width: 150px;
+  height: auto;
+  border-radius: 20px;
+}
+.accordion .img-content{
+  margin-right: 20px;
+}
 .accordion .title:after {
   content: '\2b';
   font-family: fontawesome;
